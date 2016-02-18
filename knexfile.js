@@ -1,8 +1,9 @@
+var env = require('dotenv').load();
 module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/restaurants'
+    connection: 'postgres://localhost/galvanize-reads'
   },
 
   production: {
